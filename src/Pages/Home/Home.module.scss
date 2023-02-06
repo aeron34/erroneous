@@ -1,0 +1,32 @@
+.box {
+  display: grid;
+  background-color: red;
+  grid-template-columns: 2fr 3fr;
+  height: 4rem;
+  
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.dash {
+  background-color: grey;
+  padding-top: 5rem;
+}
+
+.header-buttons-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 5fr 1fr 1fr;
+  height: 2rem;
+}
+
+.header-dash {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 4rem;
+  div {
+    background-color: red;
+  }
+}
